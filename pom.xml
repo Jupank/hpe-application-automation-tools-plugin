@@ -22,7 +22,7 @@
 		</license>
 	</licenses>
 
-	<!--<properties>
+	<properties>
 		<concurrency>1</concurrency>
 		<msbuild.exe>C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe</msbuild.exe>
 		<msbuild.configuration>Release</msbuild.configuration>
@@ -30,7 +30,7 @@
 		<workflow.version>2.2</workflow.version>
 		<bdi.version>1.0.2</bdi.version>
 		<maven.exec.skip>false</maven.exec.skip>
-	</properties>-->
+	</properties>
 
 	<distributionManagement>
 		<repository>
@@ -563,7 +563,7 @@
 		<dependency>
 			<groupId>com.hp.bdi</groupId>
 			<artifactId>bdi-sdk</artifactId>
-			<version>${bdi.version}</version>
+			<version>1.0.4</version>
 		</dependency>
 
 		<dependency>
